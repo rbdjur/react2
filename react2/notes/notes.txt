@@ -1,0 +1,40 @@
+1.  requiring an entire folder must include "index.js" to be the default file. 
+
+cannot require folder entirely unless there is an index.js.
+- instead just require the specific file you want inside that folder.
+- If doing it this way, must make a "index.js" file and inside the file: 
+
+"
+
+    module.exports = {
+        (the variable you want to export)
+    }
+
+2. Requiring and naming order
+Must: 
+
+"
+const express = require("express");
+const app = express();
+
+"
+
+require express and define it in a variable before you can use "const app = express();"
+- If not an error will appear stating "express();" is not defined. 
+
+3. Deprecated Warning 
+
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+
+The:
+"
+{ useNewUrlParser: true });
+
+                            "
+
+is the new code to be used because the old code is depcrecated.
+
+
+
+
+
