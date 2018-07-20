@@ -47,6 +47,15 @@ However, React-Router is strictly for the front end and Express-Router is strict
 
     But most importantly, this runs the mongo databse on your computer.
 
+6.  Inside of the /get route 
+Once I got the database get route to work via console.logs that notified me that the code inside the function worked.  
+
+however, the variables "title, date, url" were undefined when console logged.  
+
+in order to define the given variables with the right values, I added "result.title, result.date, result.url" to assign these variables as keys to the "const result" object.  
+
+
+
 
 
 
