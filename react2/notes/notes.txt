@@ -34,6 +34,27 @@ The:
 
 is the new code to be used because the old code is depcrecated.
 
+4. Express error 
+In Routes.js,  I assigned express() into two variables because I was mistakened thinking that React-Router and Express-Router serve the same purpose. 
+
+    1. const app = express()
+    2. const router = require("express").Router()
+
+However, React-Router is strictly for the front end and Express-Router is strictly for the backend. 
+
+5. Run mongo reminder 
+    This a note to myself that whenever using MERN, in this situation MongoDb, to run "mongod" in terminal, open a new window, and type in "mongo" to access the mongo database. 
+
+    But most importantly, this runs the mongo databse on your computer.
+
+
+
+
+
+inner package json (inside client)= front end code 
+
+outter package json = backend code 
+
 
 
 

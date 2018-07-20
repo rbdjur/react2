@@ -26,7 +26,7 @@ app.use(bodyParser.json());
 
 const MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:27017/nytreact";
 
-// app.use(router);
+app.use(router);
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
